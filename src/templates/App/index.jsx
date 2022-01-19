@@ -1,8 +1,10 @@
+import * as Styled from './styles'
+
 const Home = () => {
   return (
-    <div>
+    <Styled.Wrapper>
       <h1>O texto que eu quero</h1>
-    </div>
+    </Styled.Wrapper>
   )
 }
 
